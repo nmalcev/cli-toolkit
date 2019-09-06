@@ -1,0 +1,34 @@
+An official web site: 
+https://micro-editor.github.io/
+
+
+INSTALLATION
+In Ubuntu please install `xclip` utility for the clipboard access:
+#: sudo apt-get install xclip
+The command to install micro:
+#: curl https://getmic.ro | bash
+or
+#: snap install micro --classic
+
+
+Use cases:
+1. Edit the file:
+#: micro <path to file>
+2. Read from buffer:
+#: ifconfig | micro
+
+
+CONFIGURATION
+1. To change the color scheme, press, and type in the editor:
+[Ctrl + e], "set colorscheme bubblegum_mn"
+or you need to correct the value in ~/.config/micro/settings.json
+
+LINKS
+https://github.com/zyedidia/micro/blob/master/runtime/help/commands.md
+https://github.com/zyedidia/micro/blob/master/runtime/help/plugins.md
+https://github.com/zyedidia/micro/tree/master/runtime/colorschemes
+
+Plugin to auto comment or uncomment lines:
+	press [Crtl + E] and run the command "plugin install comment"
+
+
