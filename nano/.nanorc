@@ -1,0 +1,8 @@
+set linenumbers
+set locking
+# set mouse
+set smooth
+set softwrap
+set suspend
+set tabsize 2
+include "/usr/share/nano/*.nanorc"
