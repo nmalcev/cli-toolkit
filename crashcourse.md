@@ -24,9 +24,9 @@ zip -r "backup.zip" folder todo.txt prj -x "*node_modules/*" "*/.DS_Store"
 ### youtube-dl
 
 Links:
-- (Habr)[https://habr.com/ru/post/369853/]
-- (Linuxtricks)[https://www.linuxtricks.fr/wiki/youtube-dl]
-- (pdf)[https://epn.salledesrancy.com/wp-content/uploads/2018/06/TUTO-youtube.pdf]
+- [Habr](https://habr.com/ru/post/369853/)
+- [Linuxtricks](https://www.linuxtricks.fr/wiki/youtube-dl)
+- [pdf](https://epn.salledesrancy.com/wp-content/uploads/2018/06/TUTO-youtube.pdf)
 
 ### Nano shortcuts
 

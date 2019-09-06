@@ -11,4 +11,4 @@
 
 ### Multimedia
 - mocp
-- (youtube-dl)[https://github.com/ytdl-org/youtube-dl]
+- [youtube-dl](https://github.com/ytdl-org/youtube-dl)
