@@ -12,3 +12,6 @@
 ### Multimedia
 - mocp
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+
+### Translating
+- [translate-shell](https://github.com/soimort/translate-shell)
