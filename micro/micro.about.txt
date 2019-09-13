@@ -27,6 +27,7 @@ LINKS
 https://github.com/zyedidia/micro/blob/master/runtime/help/commands.md
 https://github.com/zyedidia/micro/blob/master/runtime/help/plugins.md
 https://github.com/zyedidia/micro/tree/master/runtime/colorschemes
+https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md
 
 Plugin to auto comment or uncomment lines:
 	press [Crtl + E] and run the command "plugin install comment"
