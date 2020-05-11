@@ -30,6 +30,8 @@ Compressing a folder and splitting into 100 Mb volumes
 
 
 ### youtube-dl
+Command to install using the pip utility (you can also install using the apt-get command): `pip install --upgrade youtube-dl`
+Command to download an audio track in mp3 format: `youtube-dl -x --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s" "https://www.youtube.com/watch?v=gfYzrXmFN84"``
 
 Links:
 - [Habr](https://habr.com/ru/post/369853/)
@@ -121,4 +123,10 @@ Checking if a package has been installed?
 
 ### Java
 To find the default Java path: `readlink -f /usr/bin/java | sed "s:bin/java::"`
+
+
+### translate-shell
+
+Installation in Ubuntu: `sudo apt install translate-shell`
+Example: `trans en:ru "any phrase"`
 
