@@ -1,0 +1,10 @@
+{
+    "colorscheme": "bubblegum_mn",
+    "ft:python": {
+        "tabsize": 2,
+        "tabstospaces": false
+    },
+    "softwrap": true,
+    "tabsize": 2,
+    "tabstospaces": true
+}
