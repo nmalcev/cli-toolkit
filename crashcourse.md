@@ -31,7 +31,17 @@ Compressing a folder and splitting into 100 Mb volumes
 
 ### youtube-dl
 Command to install using the pip utility (you can also install using the apt-get command): `pip install --upgrade youtube-dl`
-Command to download an audio track in mp3 format: `youtube-dl -x --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s" "https://www.youtube.com/watch?v=gfYzrXmFN84"``
+Command to download an audio track in mp3 format: `youtube-dl -x --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s" "https://www.youtube.com/watch?v=gfYzrXmFN84"`
+
+To select video quality: 
+`$: youtube-dl -F https://www.youtube.com/watch?v=xxx`
+To download video with selected quality:
+```
+$: youtube-dl -f 22 https://www.youtube.com/watch?v=xxx
+$: youtube-dl -f best https://www.youtube.com/watch?v=xxx
+$: youtube-dl -f mp4 https://www.youtube.com/watch?v=xxx
+```
+ 
 
 Links:
 - [Habr](https://habr.com/ru/post/369853/)
